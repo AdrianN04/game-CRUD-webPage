@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/background.jpg"); 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  z-index: -1;
+}
+
+#carouselContainer {
+  height: 60vh;
+}
+
+img {
+  height: 40vh;
+}
+
+.invalid {
+  border: 1px solid red;
+}
